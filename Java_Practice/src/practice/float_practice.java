@@ -1,4 +1,4 @@
-package practtice;
+package practice;
 
 public class float_practice {
     public static void main(String[] args) {
