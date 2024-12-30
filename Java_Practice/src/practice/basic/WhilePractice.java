@@ -1,4 +1,4 @@
-package practice;
+package practice.basic;
 
 public class WhilePractice {
     public static void main(String[] args) {
