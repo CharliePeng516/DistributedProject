@@ -1,3 +1,4 @@
+package practice.ood.calculatetax;
 
 public class SalaryIncome extends Income {
 
@@ -10,6 +11,7 @@ public class SalaryIncome extends Income {
 		if (income <= 5000) {
 			return 0;
 		}
+		System.out.println((income - 5000) * 0.2);
 		return (income - 5000) * 0.2;
 	}
 }

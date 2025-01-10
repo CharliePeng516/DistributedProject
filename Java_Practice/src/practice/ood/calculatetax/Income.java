@@ -1,3 +1,4 @@
+package practice.ood.calculatetax;
 
 public class Income {
 
@@ -8,7 +9,10 @@ public class Income {
 	}
 
 	public double getTax() {
-		return income * 0.1; // 税率10%
+
+		System.out.println(income*0.1);
+
+		return income * 0.1;
 	}
 
 }
